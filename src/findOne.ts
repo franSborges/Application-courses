@@ -6,7 +6,7 @@ async function main() {
   const course = await prisma.courses.findFirst({
     take: -1,
   });
-  console.log(course)
+  console.log(course);
 }
 
 main();

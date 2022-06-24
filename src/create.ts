@@ -10,7 +10,7 @@ async function main() {
       description: "Curso excelente de Elixir"
     }
   });
-  console.log(result)
+  console.log(result);
 }
 
 main();
